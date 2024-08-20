@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.banner {
+  margin-top: -10vh;
+  height: 105vh;
+  background-image: url('../../assets/banner.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-welcome {
+  text-align: center; /* Centra el texto horizontalmente */
+}
+
+h1 {
+  font-family: 'Cinzel', serif;
+  letter-spacing: 2.7px;
+  position: relative;
+  display: inline-block;
+  font-size: 74px;
+  line-height: 100px;
+  color: #fff !important;
+  padding-bottom: 0px;
+  padding-top: 100px;
+}
+
+h1 span {
+  color: #e75b1e;
+}
+
+h2 {
+  color: white !important;
+  font-size: 1.5rem; /* Ajusta el tamaño de la fuente del subtítulo */
+  margin-bottom: 1rem; /* Espaciado inferior del subtítulo */
+  font-family: 'Cinzel', serif;
+}
+
+p {
+  font-size: 1rem; /* Tamaño de la fuente del párrafo */
+  margin-bottom: 2rem; /* Espaciado inferior del párrafo */
+  color: white;
+}
+
+.book-btn {
+  margin-bottom: 2rem; /* Espaciado inferior del botón de reserva */
+}
+
+.table-btn {
+  text-decoration: none; /* Elimina el subrayado del enlace */
+  color: white; /* Color del texto del botón */
+  background-color: #e75b1e; /* Color de fondo del botón */
+  padding: 10px 20px; /* Espaciado interno del botón */
+  border-radius: 5px; /* Bordes redondeados del botón */
+  display: inline-block; /* Para que el botón se ajuste al contenido */
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1.6px;
+  font-weight: 550;
+  font-size: 14px;
+  -webkit-transition: color 0.4s;
+  transition: color 0.4s;   
+}
+
+.table-btn:hover {
+  background-color: #d65a1a; /* Color de fondo del botón al hacer hover */
+}
