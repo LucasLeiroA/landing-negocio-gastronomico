@@ -1,14 +1,14 @@
 .container-contact {
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Centra verticalmente */
-    align-items: center; /* Centra horizontalmente */
+    justify-content: center;
+    align-items: center;
     height: 60vh;
     background-image: url('../../assets/newsletter-bg.jpg');
     background-size: cover;
     background-position: center;
     position: relative;
-    padding: 20px; /* Agrega padding para evitar que el contenido se pegue a los bordes */
+    padding: 20px;
 }
 
 .container-contact::before {
@@ -18,7 +18,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Overlay oscuro */
+    background-color: rgba(0, 0, 0, 0.5);
     z-index: 1;
 }
 
@@ -94,51 +94,50 @@
     background-color: #b44d21;
 }
 
-/* Media Queries para pantallas más pequeñas */
 @media (max-width: 768px) {
     .container-contact h2 {
-        font-size: 32px; /* Reduce el tamaño del texto para pantallas más pequeñas */
+        font-size: 32px;
     }
 
     .container-contact p {
-        font-size: 16px; /* Reduce el tamaño del párrafo para pantallas más pequeñas */
+        font-size: 16px;
     }
 
     .contact-form {
-        max-width: 100%; /* Asegura que el formulario ocupe todo el ancho disponible */
-        padding: 0 15px; /* Añade padding para evitar que el contenido se pegue a los bordes */
+        max-width: 100%;
+        padding: 0 15px;
     }
 
     .form-group input,
     .form-group textarea {
-        font-size: 14px; /* Reduce el tamaño de los campos de entrada para pantallas más pequeñas */
+        font-size: 14px;
     }
 
     .btn-send {
-        font-size: 16px; /* Reduce el tamaño del botón para pantallas más pequeñas */
-        padding: 8px 16px; /* Ajusta el padding del botón */
+        font-size: 16px;
+        padding: 8px 16px;
     }
 }
 
 @media (max-width: 480px) {
     .container-contact {
-        height: auto; /* Ajusta la altura para pantallas muy pequeñas */
+        height: auto;
     }
 
     .container-contact h2 {
-        font-size: 28px; /* Reduce aún más el tamaño del texto */
+        font-size: 28px;
     }
 
     .container-contact p {
-        font-size: 14px; /* Reduce aún más el tamaño del párrafo */
+        font-size: 14px;
     }
 
     .contact-form {
-        padding: 0 10px; /* Aumenta el padding para pantallas muy pequeñas */
+        padding: 0 10px;
     }
 
     .btn-send {
-        font-size: 14px; /* Ajusta el tamaño del botón para pantallas muy pequeñas */
-        padding: 7px 14px; /* Ajusta el padding del botón */
+        font-size: 14px;
+        padding: 7px 14px;
     }
 }

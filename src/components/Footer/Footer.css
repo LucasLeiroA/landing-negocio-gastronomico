@@ -5,13 +5,13 @@
 }
 
 .container-footer {
-    width: 90%; /* Ajusta el ancho en pantallas pequeñas */
-    max-width: 1200px; /* Ancho máximo */
+    width: 90%;
+    max-width: 1200px; 
 }
 
 .footer-section {
-    flex: 1; /* Permite que las secciones se ajusten en el contenedor flex */
-    margin: 10px; /* Espaciado entre secciones */
+    flex: 1;
+    margin: 10px;
 }
 
 .footer-section h4 {
@@ -52,11 +52,11 @@
 
 @media (max-width: 767px) {
     .container-footer {
-        flex-direction: column; /* Pone las secciones una debajo de la otra */
-        text-align: center; /* Centra el texto */
+        flex-direction: column; 
+        text-align: center; 
     }
 
     .footer-section {
-        margin-bottom: 20px; /* Espaciado inferior entre secciones */
+        margin-bottom: 20px;
     }
 }

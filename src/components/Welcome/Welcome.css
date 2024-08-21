@@ -13,7 +13,7 @@
 }
 
 .container-welcome {
-  text-align: center; /* Centra el texto horizontalmente */
+  text-align: center; 
 }
 
 h1 {
@@ -34,28 +34,28 @@ h1 span {
 
 h2 {
   color: white !important;
-  font-size: 1.5rem; /* Ajusta el tamaño de la fuente del subtítulo */
-  margin-bottom: 1rem; /* Espaciado inferior del subtítulo */
+  font-size: 1.5rem;
+  margin-bottom: 1rem; 
   font-family: 'Cinzel', serif;
 }
 
 p {
-  font-size: 1rem; /* Tamaño de la fuente del párrafo */
-  margin-bottom: 2rem; /* Espaciado inferior del párrafo */
+  font-size: 1rem; 
+  margin-bottom: 2rem; 
   color: white;
 }
 
 .book-btn {
-  margin-bottom: 2rem; /* Espaciado inferior del botón de reserva */
+  margin-bottom: 2rem; 
 }
 
 .table-btn {
-  text-decoration: none; /* Elimina el subrayado del enlace */
-  color: white; /* Color del texto del botón */
-  background-color: #e75b1e; /* Color de fondo del botón */
-  padding: 10px 20px; /* Espaciado interno del botón */
-  border-radius: 5px; /* Bordes redondeados del botón */
-  display: inline-block; /* Para que el botón se ajuste al contenido */
+  text-decoration: none;
+  color: white; 
+  background-color: #e75b1e; 
+  padding: 10px 20px;
+  border-radius: 5px; 
+  display: inline-block; 
   font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
   letter-spacing: 1.6px;
@@ -66,5 +66,5 @@ p {
 }
 
 .table-btn:hover {
-  background-color: #d65a1a; /* Color de fondo del botón al hacer hover */
+  background-color: #d65a1a; 
 }

@@ -1,4 +1,4 @@
-/* Base styles for the container */
+
 .container-catalog {
     z-index: 10;
     background-color: white;
@@ -8,8 +8,8 @@
     justify-content: center;
     align-items: center;
     margin-top: -10vh;
-    max-width: 100%; /* Ensure the container doesn't exceed the viewport width */
-    overflow-x: hidden; /* Hide horizontal overflow of the parent container */
+    max-width: 100%; 
+    overflow-x: hidden;
 }
 
 .container-catalog h1 {
@@ -28,7 +28,7 @@
     margin-bottom: 30px;
 }
 
-/* Menu categories */
+
 .menu-categories {
     width: 100%;
     display: flex;
@@ -82,9 +82,9 @@
     display: flex;
     gap: 20px;
     padding: 10px;
-    overflow-x: auto; /* Habilitar desplazamiento horizontal */
-    white-space: nowrap; /* Asegurarse de que los elementos no se envuelvan */
-    max-width: 100%; /* Ajustar según sea necesario */
+    overflow-x: auto;
+    white-space: nowrap; 
+    max-width: 100%; 
     margin-bottom: 3vh;
 }
 
@@ -102,7 +102,7 @@
     min-height: 350px;
     min-width: 250px;
     box-sizing: border-box;
-    overflow: hidden; /* Oculta cualquier contenido que sobresalga */
+    overflow: hidden; 
 }
 
 .menu-item-img {
@@ -118,18 +118,18 @@
     margin: 10px 0 5px;
     font-size: 1.2rem;
     color: #e75b1e;
-    overflow: hidden; /* Oculta cualquier texto que sobresalga */
-    text-overflow: ellipsis; /* Muestra puntos suspensivos si el texto es muy largo */
-    white-space: nowrap; /* Evita que el texto se envuelva */
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    white-space: nowrap; 
 }
 
 .menu-item p {
     margin: 5px 0;
     font-size: 1rem;
     color: #333;
-    overflow: hidden; /* Oculta cualquier texto que sobresalga */
-    text-overflow: ellipsis; /* Muestra puntos suspensivos si el texto es muy largo */
-    white-space: nowrap; /* Evita que el texto se envuelva */
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+    white-space: nowrap; 
 }
 
 .menu-item-price {
@@ -144,18 +144,18 @@
 
 
 .menu-items2::-webkit-scrollbar {
-    width: 12px; /* Ancho de la barra de desplazamiento */
+    width: 12px; 
 }
 
-/* Estilo para el "thumb" (parte móvil de la barra de desplazamiento) */
+
 .menu-items2::-webkit-scrollbar-thumb {
-    background-color: #e75b1e; /* Color naranja */
-    border-radius: 6px; /* Bordes redondeados del "thumb" */
+    background-color: #e75b1e;
+    border-radius: 6px; 
 }
 
-/* Estilo para el "track" (parte de fondo de la barra de desplazamiento) */
+
 .menu-items2::-webkit-scrollbar-track {
-    background-color: #f0f0f0; /* Color de fondo del "track" */
-    border-radius: 6px; /* Bordes redondeados del "track" */
+    background-color: #f0f0f0; 
+    border-radius: 6px; 
 }
 
